@@ -1,4 +1,6 @@
 # Credit_Risk_Analysis
+![image](https://user-images.githubusercontent.com/67808057/98490406-46dcc400-21e6-11eb-9313-c4e6c113ddd7.png)
+
 
 ## Overview 
 In this project I am going to use machine learning to create prediction models for this classification problem of credit risk. Credit risk is an inherently unbalanced classification problem, as good loans easily outnumber risky loans. I will be using different techniques to train and evaluate models with unbalanced classes.
@@ -6,11 +8,11 @@ In this project I am going to use machine learning to create prediction models f
 
 ## Results
 
-**BalancedRandomForestClassifier**
 
-<img width="801" alt="Screen Shot 2020-11-08 at 4 39 58 PM" src="https://user-images.githubusercontent.com/67808057/98489026-1e9e9680-21e1-11eb-8cff-5eff0737c642.png">
+- **BACKGROUND INFO:**
 
-- BACKGROUND INFO:
+![image](https://user-images.githubusercontent.com/67808057/98490277-e2216980-21e5-11eb-8317-bca04cb370cd.png)
+
   - Precision Score= (Predicted True/ (Predicted True + False Positive)
   
     -People that were positive, we want to know the likelihood of actually being positive.
@@ -18,6 +20,13 @@ In this project I am going to use machine learning to create prediction models f
   - Recall Score= (Predicted True/ Predicted True + False Negative)
   
     -Person knows has a good loan status, but wants to know what the loan officer will give. 
+    
+
+**BalancedRandomForestClassifier**
+
+<img width="801" alt="Screen Shot 2020-11-08 at 4 39 58 PM" src="https://user-images.githubusercontent.com/67808057/98489026-1e9e9680-21e1-11eb-8cff-5eff0737c642.png">
+    
+  
 - Accuracy_score (r_squared)= .79
 - Precision= .99
 - Recall= .85
